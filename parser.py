@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-url = f"https://howdyho.net/page/1"
+url = f"https://howdyho.net/page/1" # могу сделать чтобы парсило все страницы есло что
 HEADERS = {
     'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36'
 }
